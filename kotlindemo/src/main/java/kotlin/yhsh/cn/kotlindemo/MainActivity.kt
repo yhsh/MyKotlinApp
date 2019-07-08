@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.app_bar_main.*
  * 2019年7月5日16:37:20
  * 如何合并分支呢？
  * 直接合并本地分支到远程
+ * 快速开发分支
  */
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
