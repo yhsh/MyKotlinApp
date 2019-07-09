@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.app_bar_main.*
  * 2019年7月5日16:37:20
  * 如何合并分支呢？
  * 直接合并本地分支到远程
- * token
+ * 快速开发分支
  */
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -55,6 +55,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
         when (item.itemId) {
             R.id.action_settings -> return true
             else -> return super.onOptionsItemSelected(item)
@@ -62,7 +65,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        //点击事件点击相应的方法 Handle navigation view item clicks here.
+        // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_camera -> {
                 // Handle the camera action
