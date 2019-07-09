@@ -14,7 +14,6 @@ import kotlinx.android.synthetic.main.app_bar_main.*
 /**
  * @author  轻飞扬
  * 2019年7月5日16:37:20
- * 分支dev
  */
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
